@@ -1,1 +1,1 @@
-web gunicorn myapp.wsgi:application --log-file -
+web gunicorn afro_salon_backend.wsgi:application --log-file -
