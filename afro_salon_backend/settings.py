@@ -100,6 +100,18 @@ WSGI_APPLICATION = 'afro_salon_backend.wsgi.application'
 DATABASES = {
     'default': {
        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+       'NAME': 'dc073f9meifuej',
+       'USER': 'u2cvf1dha8j9bp',
+       'PASSWORD': 'p5c714d300a97e208eee9d6c9360044309223b86568e3d62d69ecf5920704a706',
+       'HOST': 'c3l5o0rb2a6o4l.cluster-czz5s0kz4scl.eu-west-1.rds.amazonaws.com',
+       'PORT': '5432',
+   }
+}
+
+"""
+DATABASES = {
+    'default': {
+       'ENGINE': 'django.db.backends.postgresql_psycopg2',
        'NAME': 'afro_salon',
        'USER': 'postgres',
        'PASSWORD': 'Post1234',
@@ -107,6 +119,7 @@ DATABASES = {
        'PORT': '5432',
    }
 }
+"""
 
 
 # Password validation
